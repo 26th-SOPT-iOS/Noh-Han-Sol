@@ -49,7 +49,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="IN6-CL-rn2" kind="push" id="LaJ-HZ-bcu"/>
+                                    <segue destination="IN6-CL-rn2" kind="push" id="BOn-Pz-aMB"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="비밀번호" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJ3-1v-e32">
@@ -122,7 +122,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyI-VJ-V5l">
-                                <rect key="frame" x="0.0" y="750" width="375" height="62"/>
+                                <rect key="frame" x="16" y="750" width="343" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.02795006182" green="0.03997790893" blue="0.40625" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -150,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pNL-EU-9bd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="884" y="777.33990147783254"/>
+            <point key="canvasLocation" x="884" y="777"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="WMC-tP-Tbw">
@@ -193,7 +193,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDv-o5-e3X">
-                                <rect key="frame" x="0.0" y="750" width="375" height="62"/>
+                                <rect key="frame" x="16" y="750" width="343" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.02795006182" green="0.03997790893" blue="0.40625" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -215,7 +215,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JhJ-mz-PBn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1621.5999999999999" y="777.33990147783254"/>
+            <point key="canvasLocation" x="1686" y="777"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Fqc-Wt-nJa">
@@ -235,7 +235,29 @@
             </objects>
             <point key="canvasLocation" x="-58.399999999999999" y="115.27093596059113"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Vpb-Si-ZKa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="U0P-ls-KT3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="yG0-Kj-LXY"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="08Q-p4-HYV">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IN6-CL-rn2" kind="relationship" relationship="rootViewController" id="xkW-uD-pwV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YVO-HJ-Po4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-58" y="777"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="BOn-Pz-aMB"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Image-1" width="250" height="250"/>
     </resources>

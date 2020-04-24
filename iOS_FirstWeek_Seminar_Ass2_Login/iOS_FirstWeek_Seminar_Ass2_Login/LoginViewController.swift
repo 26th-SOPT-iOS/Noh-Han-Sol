@@ -35,11 +35,17 @@ class LoginViewController: UIViewController {
     
     
     @IBAction func logout(_ sender: Any) {
-        guard let vc = self.presentingViewController else {return}
-        vc.navigationController?.popToRootViewController(animated: true)
+    
         self.dismiss(animated: true, completion: nil)
+   
         
     }
+        
+
+
+        
+        
+    
     
     
     /*

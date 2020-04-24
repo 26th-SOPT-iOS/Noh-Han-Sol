@@ -25,7 +25,10 @@ class MainViewController: UIViewController {
         receiveViewController.id = idTextField.text
         receiveViewController.pw = pwTextField.text
         receiveViewController.modalPresentationStyle = .fullScreen
+        idTextField.text = ""
+        pwTextField.text = ""
         self.present(receiveViewController, animated: true, completion: nil)
+    
     }
     
     

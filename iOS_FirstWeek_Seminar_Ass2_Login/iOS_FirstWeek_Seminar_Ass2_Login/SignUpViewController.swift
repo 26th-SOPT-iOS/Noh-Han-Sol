@@ -12,6 +12,7 @@ class SignUpViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.topItem?.title=""
 
         // Do any additional setup after loading the view.
     }
@@ -26,7 +27,9 @@ class SignUpViewController: UIViewController {
         receiveViewController.pw = self.pwField.text
         receiveViewController.modalPresentationStyle = .fullScreen
         
-        self.present(receiveViewController, animated: true, completion: nil)
+        self.present(receiveViewController, animated: true) {
+            self.navigationController?.popViewController(animated: true)
+        }
     }
     
     /*
