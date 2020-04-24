@@ -28,14 +28,17 @@ class LoginViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
+    
     
     @IBOutlet weak var idField: UITextField!
     @IBOutlet weak var pwField: UITextField!
     
-
+    
     @IBAction func logout(_ sender: Any) {
+        guard let vc = self.presentingViewController else {return}
+        vc.navigationController?.popToRootViewController(animated: true)
         self.dismiss(animated: true, completion: nil)
+        
     }
     
     
