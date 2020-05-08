@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        super.navigationController?.navigationBar.topItem?.title=""
         // Do any additional setup after loading the view.
     }
 

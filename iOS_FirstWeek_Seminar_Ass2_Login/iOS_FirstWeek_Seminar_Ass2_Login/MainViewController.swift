@@ -28,17 +28,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var signInLabel: UILabel!
     
     
-    @IBAction func dataTransfer(_ sender: Any) {
-        guard let receiveViewController = self.storyboard?.instantiateViewController(identifier: "loginViewController") as? LoginViewController else {return}
-        
-        receiveViewController.id = idTextField.text
-        receiveViewController.pw = pwTextField.text
-        receiveViewController.modalPresentationStyle = .fullScreen
-        idTextField.text = ""
-        pwTextField.text = ""
-        self.present(receiveViewController, animated: true, completion: nil)
     
-    }
     
    
     func setTextField() {

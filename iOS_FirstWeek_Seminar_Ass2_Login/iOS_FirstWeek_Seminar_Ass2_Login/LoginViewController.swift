@@ -11,35 +11,17 @@ import UIKit
 class LoginViewController: UIViewController {
 
     
-    var id : String?
-    var pw : String?
     
-    private func setFields() {
-        guard let id = self.id else {return}
-        guard let pw = self.pw else {return}
         
-        idField.text = id
-        pwField.text = pw
-        
-    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        setFields()
+        super.navigationController?.navigationBar.topItem?.title=""
 
         // Do any additional setup after loading the view.
     }
     
     
-    @IBOutlet weak var idField: UITextField!
-    @IBOutlet weak var pwField: UITextField!
-    
-    
-    @IBAction func logout(_ sender: Any) {
-    
-        self.dismiss(animated: true, completion: nil)
-   
-        
-    }
         
 
 

@@ -25,19 +25,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var pwTextField: PaddingField!
     @IBOutlet weak var signUpButton: UIButton!
     
-    @IBAction func signUp(_ sender: Any) {
-        guard let receiveViewController = self.storyboard?.instantiateViewController(identifier: "loginViewController") as? LoginViewController else {return}
-        
-        receiveViewController.id = self.idTextField.text
-        receiveViewController.pw = self.pwTextField.text
-        
-        receiveViewController.modalPresentationStyle = .fullScreen
-        
-        self.present(receiveViewController, animated: true) {
-            self.navigationController?.popViewController(animated: true)
-        }
-    }
-    
+   
     func setTextField() {
         let color : UIColor = UIColor(red:52.0/255.0, green:52.0/255.0,blue: 52.0/255.0, alpha:47)
         let font = UIFont(name: "KoPubWorldDotum_PB", size:14)
