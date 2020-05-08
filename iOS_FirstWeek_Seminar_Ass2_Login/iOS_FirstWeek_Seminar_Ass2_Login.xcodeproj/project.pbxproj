@@ -18,6 +18,11 @@
 		CC11551C245025B5004C15B8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC11551B245025B4004C15B8 /* LoginViewController.swift */; };
 		CC11551E2450266B004C15B8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC11551D2450266B004C15B8 /* MainViewController.swift */; };
 		CC11552024502692004C15B8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC11551F24502692004C15B8 /* SignUpViewController.swift */; };
+		CC5E1124245958B200CDEC07 /* PaddingField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E1123245958B200CDEC07 /* PaddingField.swift */; };
+		CC5E11262459618200CDEC07 /* PaddingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E11252459618200CDEC07 /* PaddingButton.swift */; };
+		CC5E1128245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC5E1127245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf */; };
+		CC5E1129245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC5E1127245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf */; };
+		CC5E112A245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC5E1127245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,9 @@
 		CC11551B245025B4004C15B8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CC11551D2450266B004C15B8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CC11551F24502692004C15B8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CC5E1123245958B200CDEC07 /* PaddingField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingField.swift; sourceTree = "<group>"; };
+		CC5E11252459618200CDEC07 /* PaddingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingButton.swift; sourceTree = "<group>"; };
+		CC5E1127245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KoPubWorld Dotum_Pro Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +119,13 @@
 				CC1154F124501DB6004C15B8 /* Main.storyboard */,
 				CC1154F424501DB8004C15B8 /* Assets.xcassets */,
 				CC1154F624501DB8004C15B8 /* LaunchScreen.storyboard */,
+				CC5E1127245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf */,
 				CC1154F924501DB8004C15B8 /* Info.plist */,
 				CC11551B245025B4004C15B8 /* LoginViewController.swift */,
 				CC11551D2450266B004C15B8 /* MainViewController.swift */,
 				CC11551F24502692004C15B8 /* SignUpViewController.swift */,
+				CC5E1123245958B200CDEC07 /* PaddingField.swift */,
+				CC5E11252459618200CDEC07 /* PaddingButton.swift */,
 			);
 			path = iOS_FirstWeek_Seminar_Ass2_Login;
 			sourceTree = "<group>";
@@ -244,6 +255,7 @@
 				CC1154F824501DB8004C15B8 /* LaunchScreen.storyboard in Resources */,
 				CC1154F524501DB8004C15B8 /* Assets.xcassets in Resources */,
 				CC1154F324501DB6004C15B8 /* Main.storyboard in Resources */,
+				CC5E1128245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5E1129245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5E112A245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,8 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC11552024502692004C15B8 /* SignUpViewController.swift in Sources */,
+				CC5E11262459618200CDEC07 /* PaddingButton.swift in Sources */,
 				CC11551C245025B5004C15B8 /* LoginViewController.swift in Sources */,
 				CC1154F024501DB6004C15B8 /* ViewController.swift in Sources */,
+				CC5E1124245958B200CDEC07 /* PaddingField.swift in Sources */,
 				CC1154EC24501DB6004C15B8 /* AppDelegate.swift in Sources */,
 				CC1154EE24501DB6004C15B8 /* SceneDelegate.swift in Sources */,
 				CC11551E2450266B004C15B8 /* MainViewController.swift in Sources */,
