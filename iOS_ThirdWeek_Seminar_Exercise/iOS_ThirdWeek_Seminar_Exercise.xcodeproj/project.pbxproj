@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCA40D882466729A008B81ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA40D872466729A008B81ED /* AppDelegate.swift */; };
+		CCA40D8A2466729A008B81ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA40D892466729A008B81ED /* SceneDelegate.swift */; };
+		CCA40D8C2466729A008B81ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA40D8B2466729A008B81ED /* ViewController.swift */; };
+		CCA40D8F2466729A008B81ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA40D8D2466729A008B81ED /* Main.storyboard */; };
+		CCA40D912466729E008B81ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA40D902466729E008B81ED /* Assets.xcassets */; };
+		CCA40D942466729E008B81ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA40D922466729E008B81ED /* LaunchScreen.storyboard */; };
+		CCA40D9F2466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA40D9E2466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseTests.swift */; };
+		CCA40DAA2466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA40DA92466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseUITests.swift */; };
+		CCA40DBA24667D24008B81ED /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA40DB924667D24008B81ED /* Music.swift */; };
+		CCA40DBC246685E1008B81ED /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA40DBB246685E1008B81ED /* TableViewController.swift */; };
+		CCA40DBE2466870D008B81ED /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA40DBD2466870D008B81ED /* WeatherCell.swift */; };
+		CCA40DC02466886B008B81ED /* DateInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA40DBF2466886B008B81ED /* DateInformation.swift */; };
+		CCA40DC22466950C008B81ED /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA40DC12466950C008B81ED /* DetailViewController.swift */; };
+		CCA40DC424669A02008B81ED /* CollectionViewSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA40DC324669A02008B81ED /* CollectionViewSampleViewController.swift */; };
+		CCA40DC824669B6A008B81ED /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA40DC724669B6A008B81ED /* MusicCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCA40D9B2466729E008B81ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA40D7C2466729A008B81ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA40D832466729A008B81ED;
+			remoteInfo = iOS_ThirdWeek_Seminar_Exercise;
+		};
+		CCA40DA62466729E008B81ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA40D7C2466729A008B81ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA40D832466729A008B81ED;
+			remoteInfo = iOS_ThirdWeek_Seminar_Exercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCA40D842466729A008B81ED /* iOS_ThirdWeek_Seminar_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_ThirdWeek_Seminar_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA40D872466729A008B81ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCA40D892466729A008B81ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCA40D8B2466729A008B81ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCA40D8E2466729A008B81ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCA40D902466729E008B81ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCA40D932466729E008B81ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCA40D952466729E008B81ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA40D9A2466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_ThirdWeek_Seminar_ExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA40D9E2466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_ThirdWeek_Seminar_ExerciseTests.swift; sourceTree = "<group>"; };
+		CCA40DA02466729E008B81ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA40DA52466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_ThirdWeek_Seminar_ExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA40DA92466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_ThirdWeek_Seminar_ExerciseUITests.swift; sourceTree = "<group>"; };
+		CCA40DAB2466729E008B81ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA40DB924667D24008B81ED /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		CCA40DBB246685E1008B81ED /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CCA40DBD2466870D008B81ED /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		CCA40DBF2466886B008B81ED /* DateInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateInformation.swift; sourceTree = "<group>"; };
+		CCA40DC12466950C008B81ED /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CCA40DC324669A02008B81ED /* CollectionViewSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewSampleViewController.swift; sourceTree = "<group>"; };
+		CCA40DC724669B6A008B81ED /* MusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA40D812466729A008B81ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA40D972466729E008B81ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA40DA22466729E008B81ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCA40D7B2466729A008B81ED = {
+			isa = PBXGroup;
+			children = (
+				CCA40D862466729A008B81ED /* iOS_ThirdWeek_Seminar_Exercise */,
+				CCA40D9D2466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseTests */,
+				CCA40DA82466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseUITests */,
+				CCA40D852466729A008B81ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA40D852466729A008B81ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA40D842466729A008B81ED /* iOS_ThirdWeek_Seminar_Exercise.app */,
+				CCA40D9A2466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseTests.xctest */,
+				CCA40DA52466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA40D862466729A008B81ED /* iOS_ThirdWeek_Seminar_Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				CCA40D872466729A008B81ED /* AppDelegate.swift */,
+				CCA40D892466729A008B81ED /* SceneDelegate.swift */,
+				CCA40D8B2466729A008B81ED /* ViewController.swift */,
+				CCA40D8D2466729A008B81ED /* Main.storyboard */,
+				CCA40D902466729E008B81ED /* Assets.xcassets */,
+				CCA40D922466729E008B81ED /* LaunchScreen.storyboard */,
+				CCA40D952466729E008B81ED /* Info.plist */,
+				CCA40DB924667D24008B81ED /* Music.swift */,
+				CCA40DBB246685E1008B81ED /* TableViewController.swift */,
+				CCA40DBD2466870D008B81ED /* WeatherCell.swift */,
+				CCA40DBF2466886B008B81ED /* DateInformation.swift */,
+				CCA40DC12466950C008B81ED /* DetailViewController.swift */,
+				CCA40DC324669A02008B81ED /* CollectionViewSampleViewController.swift */,
+				CCA40DC724669B6A008B81ED /* MusicCell.swift */,
+			);
+			path = iOS_ThirdWeek_Seminar_Exercise;
+			sourceTree = "<group>";
+		};
+		CCA40D9D2466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA40D9E2466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseTests.swift */,
+				CCA40DA02466729E008B81ED /* Info.plist */,
+			);
+			path = iOS_ThirdWeek_Seminar_ExerciseTests;
+			sourceTree = "<group>";
+		};
+		CCA40DA82466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA40DA92466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseUITests.swift */,
+				CCA40DAB2466729E008B81ED /* Info.plist */,
+			);
+			path = iOS_ThirdWeek_Seminar_ExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA40D832466729A008B81ED /* iOS_ThirdWeek_Seminar_Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA40DAE2466729E008B81ED /* Build configuration list for PBXNativeTarget "iOS_ThirdWeek_Seminar_Exercise" */;
+			buildPhases = (
+				CCA40D802466729A008B81ED /* Sources */,
+				CCA40D812466729A008B81ED /* Frameworks */,
+				CCA40D822466729A008B81ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_ThirdWeek_Seminar_Exercise;
+			productName = iOS_ThirdWeek_Seminar_Exercise;
+			productReference = CCA40D842466729A008B81ED /* iOS_ThirdWeek_Seminar_Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCA40D992466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA40DB12466729E008B81ED /* Build configuration list for PBXNativeTarget "iOS_ThirdWeek_Seminar_ExerciseTests" */;
+			buildPhases = (
+				CCA40D962466729E008B81ED /* Sources */,
+				CCA40D972466729E008B81ED /* Frameworks */,
+				CCA40D982466729E008B81ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA40D9C2466729E008B81ED /* PBXTargetDependency */,
+			);
+			name = iOS_ThirdWeek_Seminar_ExerciseTests;
+			productName = iOS_ThirdWeek_Seminar_ExerciseTests;
+			productReference = CCA40D9A2466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCA40DA42466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA40DB42466729E008B81ED /* Build configuration list for PBXNativeTarget "iOS_ThirdWeek_Seminar_ExerciseUITests" */;
+			buildPhases = (
+				CCA40DA12466729E008B81ED /* Sources */,
+				CCA40DA22466729E008B81ED /* Frameworks */,
+				CCA40DA32466729E008B81ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA40DA72466729E008B81ED /* PBXTargetDependency */,
+			);
+			name = iOS_ThirdWeek_Seminar_ExerciseUITests;
+			productName = iOS_ThirdWeek_Seminar_ExerciseUITests;
+			productReference = CCA40DA52466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA40D7C2466729A008B81ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "노한솔";
+				TargetAttributes = {
+					CCA40D832466729A008B81ED = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					CCA40D992466729E008B81ED = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = CCA40D832466729A008B81ED;
+					};
+					CCA40DA42466729E008B81ED = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = CCA40D832466729A008B81ED;
+					};
+				};
+			};
+			buildConfigurationList = CCA40D7F2466729A008B81ED /* Build configuration list for PBXProject "iOS_ThirdWeek_Seminar_Exercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA40D7B2466729A008B81ED;
+			productRefGroup = CCA40D852466729A008B81ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA40D832466729A008B81ED /* iOS_ThirdWeek_Seminar_Exercise */,
+				CCA40D992466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseTests */,
+				CCA40DA42466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA40D822466729A008B81ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA40D942466729E008B81ED /* LaunchScreen.storyboard in Resources */,
+				CCA40D912466729E008B81ED /* Assets.xcassets in Resources */,
+				CCA40D8F2466729A008B81ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA40D982466729E008B81ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA40DA32466729E008B81ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA40D802466729A008B81ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA40D8C2466729A008B81ED /* ViewController.swift in Sources */,
+				CCA40D882466729A008B81ED /* AppDelegate.swift in Sources */,
+				CCA40DBE2466870D008B81ED /* WeatherCell.swift in Sources */,
+				CCA40D8A2466729A008B81ED /* SceneDelegate.swift in Sources */,
+				CCA40DBC246685E1008B81ED /* TableViewController.swift in Sources */,
+				CCA40DC824669B6A008B81ED /* MusicCell.swift in Sources */,
+				CCA40DBA24667D24008B81ED /* Music.swift in Sources */,
+				CCA40DC02466886B008B81ED /* DateInformation.swift in Sources */,
+				CCA40DC424669A02008B81ED /* CollectionViewSampleViewController.swift in Sources */,
+				CCA40DC22466950C008B81ED /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA40D962466729E008B81ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA40D9F2466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA40DA12466729E008B81ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA40DAA2466729E008B81ED /* iOS_ThirdWeek_Seminar_ExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCA40D9C2466729E008B81ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA40D832466729A008B81ED /* iOS_ThirdWeek_Seminar_Exercise */;
+			targetProxy = CCA40D9B2466729E008B81ED /* PBXContainerItemProxy */;
+		};
+		CCA40DA72466729E008B81ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA40D832466729A008B81ED /* iOS_ThirdWeek_Seminar_Exercise */;
+			targetProxy = CCA40DA62466729E008B81ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCA40D8D2466729A008B81ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA40D8E2466729A008B81ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCA40D922466729E008B81ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA40D932466729E008B81ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCA40DAC2466729E008B81ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCA40DAD2466729E008B81ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA40DAF2466729E008B81ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_ThirdWeek_Seminar_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ryan.iOS-ThirdWeek-Seminar-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCA40DB02466729E008B81ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_ThirdWeek_Seminar_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ryan.iOS-ThirdWeek-Seminar-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCA40DB22466729E008B81ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_ThirdWeek_Seminar_ExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ryan.iOS-ThirdWeek-Seminar-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_ThirdWeek_Seminar_Exercise.app/iOS_ThirdWeek_Seminar_Exercise";
+			};
+			name = Debug;
+		};
+		CCA40DB32466729E008B81ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_ThirdWeek_Seminar_ExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ryan.iOS-ThirdWeek-Seminar-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_ThirdWeek_Seminar_Exercise.app/iOS_ThirdWeek_Seminar_Exercise";
+			};
+			name = Release;
+		};
+		CCA40DB52466729E008B81ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_ThirdWeek_Seminar_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ryan.iOS-ThirdWeek-Seminar-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS_ThirdWeek_Seminar_Exercise;
+			};
+			name = Debug;
+		};
+		CCA40DB62466729E008B81ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_ThirdWeek_Seminar_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ryan.iOS-ThirdWeek-Seminar-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS_ThirdWeek_Seminar_Exercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA40D7F2466729A008B81ED /* Build configuration list for PBXProject "iOS_ThirdWeek_Seminar_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA40DAC2466729E008B81ED /* Debug */,
+				CCA40DAD2466729E008B81ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA40DAE2466729E008B81ED /* Build configuration list for PBXNativeTarget "iOS_ThirdWeek_Seminar_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA40DAF2466729E008B81ED /* Debug */,
+				CCA40DB02466729E008B81ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA40DB12466729E008B81ED /* Build configuration list for PBXNativeTarget "iOS_ThirdWeek_Seminar_ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA40DB22466729E008B81ED /* Debug */,
+				CCA40DB32466729E008B81ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA40DB42466729E008B81ED /* Build configuration list for PBXNativeTarget "iOS_ThirdWeek_Seminar_ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA40DB52466729E008B81ED /* Debug */,
+				CCA40DB62466729E008B81ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCA40D7C2466729A008B81ED /* Project object */;
+}
