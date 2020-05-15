@@ -18,11 +18,14 @@
 		CC11551C245025B5004C15B8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC11551B245025B4004C15B8 /* LoginViewController.swift */; };
 		CC11551E2450266B004C15B8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC11551D2450266B004C15B8 /* MainViewController.swift */; };
 		CC11552024502692004C15B8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC11551F24502692004C15B8 /* SignUpViewController.swift */; };
+		CC1B4D55246EB28B0026B5F6 /* TalkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1B4D54246EB28B0026B5F6 /* TalkCell.swift */; };
+		CC1B4D57246EB3A60026B5F6 /* TalkInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1B4D56246EB3A60026B5F6 /* TalkInformation.swift */; };
 		CC5E1124245958B200CDEC07 /* PaddingField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E1123245958B200CDEC07 /* PaddingField.swift */; };
 		CC5E11262459618200CDEC07 /* PaddingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E11252459618200CDEC07 /* PaddingButton.swift */; };
 		CC5E1128245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC5E1127245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf */; };
 		CC5E1129245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC5E1127245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf */; };
 		CC5E112A245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC5E1127245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf */; };
+		CCA40DCA246A97A1008B81ED /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA40DC9246A97A1008B81ED /* FriendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +63,12 @@
 		CC11551B245025B4004C15B8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CC11551D2450266B004C15B8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CC11551F24502692004C15B8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CC1B4D54246EB28B0026B5F6 /* TalkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkCell.swift; sourceTree = "<group>"; };
+		CC1B4D56246EB3A60026B5F6 /* TalkInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkInformation.swift; sourceTree = "<group>"; };
 		CC5E1123245958B200CDEC07 /* PaddingField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingField.swift; sourceTree = "<group>"; };
 		CC5E11252459618200CDEC07 /* PaddingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingButton.swift; sourceTree = "<group>"; };
 		CC5E1127245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KoPubWorld Dotum_Pro Bold.otf"; sourceTree = "<group>"; };
+		CCA40DC9246A97A1008B81ED /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,7 @@
 				CC1154ED24501DB6004C15B8 /* SceneDelegate.swift */,
 				CC1154EF24501DB6004C15B8 /* ViewController.swift */,
 				CC1154F124501DB6004C15B8 /* Main.storyboard */,
+				CC1B4D54246EB28B0026B5F6 /* TalkCell.swift */,
 				CC1154F424501DB8004C15B8 /* Assets.xcassets */,
 				CC1154F624501DB8004C15B8 /* LaunchScreen.storyboard */,
 				CC5E1127245AC4A900CDEC07 /* KoPubWorld Dotum_Pro Bold.otf */,
@@ -126,6 +133,8 @@
 				CC11551F24502692004C15B8 /* SignUpViewController.swift */,
 				CC5E1123245958B200CDEC07 /* PaddingField.swift */,
 				CC5E11252459618200CDEC07 /* PaddingButton.swift */,
+				CCA40DC9246A97A1008B81ED /* FriendViewController.swift */,
+				CC1B4D56246EB3A60026B5F6 /* TalkInformation.swift */,
 			);
 			path = iOS_FirstWeek_Seminar_Ass2_Login;
 			sourceTree = "<group>";
@@ -288,8 +297,11 @@
 				CC1154F024501DB6004C15B8 /* ViewController.swift in Sources */,
 				CC5E1124245958B200CDEC07 /* PaddingField.swift in Sources */,
 				CC1154EC24501DB6004C15B8 /* AppDelegate.swift in Sources */,
+				CC1B4D57246EB3A60026B5F6 /* TalkInformation.swift in Sources */,
+				CCA40DCA246A97A1008B81ED /* FriendViewController.swift in Sources */,
 				CC1154EE24501DB6004C15B8 /* SceneDelegate.swift in Sources */,
 				CC11551E2450266B004C15B8 /* MainViewController.swift in Sources */,
+				CC1B4D55246EB28B0026B5F6 /* TalkCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
