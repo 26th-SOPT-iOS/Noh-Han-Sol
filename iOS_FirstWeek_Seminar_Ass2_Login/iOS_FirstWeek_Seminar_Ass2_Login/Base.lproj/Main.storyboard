@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mCM-2U-5ug">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hTf-u1-DdC">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -33,7 +33,6 @@
                                 </state>
                                 <connections>
                                     <action selector="dataTransfer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e7q-60-MHR"/>
-                                    <segue destination="p31-yA-XwI" kind="presentation" id="nD9-ra-8dt"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soptLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Vwl-Lo-r5w">
@@ -109,16 +108,16 @@
             </objects>
             <point key="canvasLocation" x="884" y="115.27093596059113"/>
         </scene>
-        <!--View Controller-->
+        <!--홈-->
         <scene sceneID="3ol-WR-ZbE">
             <objects>
                 <viewController id="CBd-6Y-OIm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9bN-bf-eEe">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1146"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="scrollableAxes" translatesAutoresizingMaskIntoConstraints="NO" id="cgq-L9-tbQ">
-                                <rect key="frame" x="0.0" y="266" width="375" height="797"/>
+                                <rect key="frame" x="0.0" y="254" width="375" height="863"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9188465425230637911275922235726328076697600N" translatesAutoresizingMaskIntoConstraints="NO" id="QpU-UD-DKh">
                                         <rect key="frame" x="28" y="32" width="148" height="198"/>
@@ -217,7 +216,7 @@
                                 <inset key="scrollIndicatorInsets" minX="0.0" minY="210" maxX="0.0" maxY="0.0"/>
                             </scrollView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="oursoptBgImg" translatesAutoresizingMaskIntoConstraints="NO" id="v34-6h-EGl">
-                                <rect key="frame" x="0.0" y="56" width="375" height="210"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="210"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -233,23 +232,24 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8IZ-QZ-RzU"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="홈" image="house.fill" catalog="system" id="mYv-bp-tSC"/>
                     <navigationItem key="navigationItem" id="uUK-Gi-OBc"/>
                     <size key="freeformSize" width="375" height="1200"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="18a-ci-shA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3549.5999999999999" y="-71.674876847290648"/>
+            <point key="canvasLocation" x="4492" y="-71.674876847290648"/>
         </scene>
-        <!--Friend View Controller-->
+        <!--친구-->
         <scene sceneID="voz-M8-YzG">
             <objects>
                 <viewController id="mCM-2U-5ug" customClass="FriendViewController" customModule="iOS_FirstWeek_Seminar_Ass2_Login" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qjM-Kq-lLi">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xaw-jF-3If">
-                                <rect key="frame" x="0.0" y="56" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="친구" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jfv-SV-igu">
                                         <rect key="frame" x="16" y="13" width="40" height="27"/>
@@ -277,7 +277,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cC0-Br-Rn8">
-                                <rect key="frame" x="0.0" y="100" width="375" height="88.666666666666686"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="88.666666666666686"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9573886432601742940168682793295078318145536N" translatesAutoresizingMaskIntoConstraints="NO" id="uDt-KC-oi9">
                                         <rect key="frame" x="15.666666666666668" y="12.999999999999996" width="59.333333333333329" height="59.666666666666657"/>
@@ -304,7 +304,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="o3N-LZ-j9Z">
-                                <rect key="frame" x="0.0" y="188.66666666666669" width="375" height="569.33333333333326"/>
+                                <rect key="frame" x="0.0" y="176.66666666666669" width="375" height="635.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TalkCell" id="seK-LA-Z2F" customClass="TalkCell" customModule="iOS_FirstWeek_Seminar_Ass2_Login" customModuleProvider="target">
@@ -372,6 +372,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="asl-Xi-hBg"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="친구" image="person.fill" catalog="system" id="pG9-DS-1Dt"/>
                     <navigationItem key="navigationItem" id="JVh-t3-gsv"/>
                     <connections>
                         <outlet property="talkTableView" destination="o3N-LZ-j9Z" id="8Ew-Gn-XB5"/>
@@ -466,7 +467,6 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="signUp:" destination="IN6-CL-rn2" eventType="touchUpInside" id="DNU-Gl-f2V"/>
-                                    <segue destination="p31-yA-XwI" kind="presentation" id="TSi-Pq-DJ1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -537,65 +537,24 @@
             <point key="canvasLocation" x="-58" y="777"/>
         </scene>
         <!--Tab Bar Controller-->
-        <scene sceneID="5Ra-Bx-xcf">
+        <scene sceneID="XD0-Cw-G9K">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="p31-yA-XwI" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hTf-u1-DdC" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="REY-gZ-osJ">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OZh-WX-qYf">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="2GJ-XR-dEH" kind="relationship" relationship="viewControllers" id="Fw0-yq-KFO"/>
-                        <segue destination="cc2-zr-gfV" kind="relationship" relationship="viewControllers" id="GmS-k4-5a0"/>
+                        <segue destination="CBd-6Y-OIm" kind="relationship" relationship="viewControllers" id="zaW-t5-b6L"/>
+                        <segue destination="mCM-2U-5ug" kind="relationship" relationship="viewControllers" id="zoK-9g-k2Q"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gab-Ty-ufd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b5j-ef-n2r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1666.4000000000001" y="-71.674876847290648"/>
-        </scene>
-        <!--홈-->
-        <scene sceneID="Dn4-PN-jxe">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2GJ-XR-dEH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="홈" image="house.fill" catalog="system" id="GSn-3S-Wup"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="R8D-a4-aWZ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="CBd-6Y-OIm" kind="relationship" relationship="rootViewController" id="mgM-pV-oyz"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Sms-ry-eAZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2607.1999999999998" y="-71.674876847290648"/>
-        </scene>
-        <!--친구-->
-        <scene sceneID="nUu-MH-f4f">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cc2-zr-gfV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="친구" image="person.fill" catalog="system" id="kWg-mh-bbO"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Qpq-zd-hsI">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="mCM-2U-5ug" kind="relationship" relationship="rootViewController" id="xga-AB-W02"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9zS-TG-I6U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2784.8000000000002" y="799.50738916256159"/>
+            <point key="canvasLocation" x="3551.1999999999998" y="-71.674876847290648"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="nD9-ra-8dt"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="814" width="20" height="20"/>
         <image name="9188465425230637911275922235726328076697600N" width="148" height="198"/>

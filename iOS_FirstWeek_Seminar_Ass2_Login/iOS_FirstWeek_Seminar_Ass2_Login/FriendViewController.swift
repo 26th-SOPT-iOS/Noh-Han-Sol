@@ -73,7 +73,7 @@ extension FriendViewController: UITableViewDataSource {
         returnedView.backgroundColor = .white
 
         let label = UILabel(frame: CGRect(x: 16, y: 10, width: 385, height: 17))
-        label.text = "친구 20"
+        label.text = "친구 "+String((profileList.count))
         label.textColor = .gray
         returnedView.addSubview(label)
 
