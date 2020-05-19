@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hTf-u1-DdC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -33,6 +33,7 @@
                                 </state>
                                 <connections>
                                     <action selector="dataTransfer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e7q-60-MHR"/>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Emw-QS-KJf"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soptLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Vwl-Lo-r5w">
@@ -418,11 +419,11 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" placeholder="이메일" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pLk-0Y-s7f" customClass="PaddingField" customModule="iOS_FirstWeek_Seminar_Ass2_Login" customModuleProvider="target">
-                                <rect key="frame" x="37.666666666666657" y="394" width="300" height="44"/>
+                                <rect key="frame" x="37.666666666666657" y="396" width="300" height="44"/>
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="NJ7-Jm-Cvk"/>
-                                    <constraint firstAttribute="width" constant="300" id="W7D-Nb-rwl"/>
+                                    <constraint firstAttribute="height" constant="44" id="KlR-TO-SoM"/>
+                                    <constraint firstAttribute="width" constant="300" id="abl-xE-olg"/>
                                 </constraints>
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -443,11 +444,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jyI-VJ-V5l">
-                                <rect key="frame" x="37.666666666666657" y="483" width="300" height="48"/>
+                                <rect key="frame" x="37.666666666666657" y="605" width="300" height="36.666666666666629"/>
                                 <color key="backgroundColor" red="0.027450980392156862" green="0.23137254901960785" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="Mp8-Ks-cbq"/>
-                                    <constraint firstAttribute="height" constant="48" id="rVF-hD-kWt"/>
+                                    <constraint firstAttribute="width" constant="300" id="vh1-8h-edF"/>
                                 </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -467,31 +467,58 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="signUp:" destination="IN6-CL-rn2" eventType="touchUpInside" id="DNU-Gl-f2V"/>
+                                    <action selector="signup:" destination="IN6-CL-rn2" eventType="touchUpInside" id="CGD-79-Gkt"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" placeholder="이메일" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5yK-7z-CHA" customClass="PaddingField" customModule="iOS_FirstWeek_Seminar_Ass2_Login" customModuleProvider="target">
+                                <rect key="frame" x="37.666666666666657" y="456" width="300" height="44"/>
+                                <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Sc3-CO-C6r"/>
+                                    <constraint firstAttribute="height" constant="44" id="jkR-T9-8tc"/>
+                                </constraints>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" placeholder="이메일" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Y4-PE-wKP" customClass="PaddingField" customModule="iOS_FirstWeek_Seminar_Ass2_Login" customModuleProvider="target">
+                                <rect key="frame" x="37.666666666666657" y="516" width="300" height="44"/>
+                                <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="WEU-nm-Mab"/>
+                                    <constraint firstAttribute="height" constant="44" id="fDm-VU-KHK"/>
+                                </constraints>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="zUI-Ri-tLc" firstAttribute="centerX" secondItem="Han-rX-1PS" secondAttribute="centerX" id="4nl-z4-2bN"/>
-                            <constraint firstItem="pLk-0Y-s7f" firstAttribute="centerX" secondItem="Han-rX-1PS" secondAttribute="centerX" id="MYz-qa-eaD"/>
-                            <constraint firstItem="jyI-VJ-V5l" firstAttribute="top" secondItem="pLk-0Y-s7f" secondAttribute="bottom" constant="45" id="MuB-nK-eOO"/>
-                            <constraint firstItem="pLk-0Y-s7f" firstAttribute="top" secondItem="4dG-OS-3ml" secondAttribute="bottom" constant="14" id="RQR-IM-8fR"/>
-                            <constraint firstItem="jyI-VJ-V5l" firstAttribute="centerX" secondItem="Han-rX-1PS" secondAttribute="centerX" id="WDm-nE-zKV"/>
+                            <constraint firstItem="2Y4-PE-wKP" firstAttribute="top" secondItem="5yK-7z-CHA" secondAttribute="bottom" constant="16" id="89N-C0-VOb"/>
+                            <constraint firstItem="5yK-7z-CHA" firstAttribute="centerX" secondItem="Han-rX-1PS" secondAttribute="centerX" id="Eps-rY-bMX"/>
+                            <constraint firstItem="pLk-0Y-s7f" firstAttribute="centerX" secondItem="Han-rX-1PS" secondAttribute="centerX" id="HTe-3s-aRD"/>
+                            <constraint firstItem="jyI-VJ-V5l" firstAttribute="top" secondItem="2Y4-PE-wKP" secondAttribute="bottom" constant="45" id="HtY-nD-paY"/>
+                            <constraint firstItem="5yK-7z-CHA" firstAttribute="top" secondItem="pLk-0Y-s7f" secondAttribute="bottom" constant="16" id="KPB-88-rGh"/>
+                            <constraint firstItem="jyI-VJ-V5l" firstAttribute="centerX" secondItem="Han-rX-1PS" secondAttribute="centerX" id="NWw-mc-bLF"/>
                             <constraint firstItem="4dG-OS-3ml" firstAttribute="centerX" secondItem="Han-rX-1PS" secondAttribute="centerX" id="egF-1j-3ag"/>
                             <constraint firstItem="zUI-Ri-tLc" firstAttribute="top" secondItem="TJ7-ey-vT6" secondAttribute="bottom" constant="10" id="f6j-Q4-IC9"/>
                             <constraint firstItem="TJ7-ey-vT6" firstAttribute="centerX" secondItem="Han-rX-1PS" secondAttribute="centerX" id="fwb-xQ-qba"/>
                             <constraint firstItem="WAN-AC-s9l" firstAttribute="centerX" secondItem="Han-rX-1PS" secondAttribute="centerX" id="kKB-y1-oWC"/>
+                            <constraint firstItem="pLk-0Y-s7f" firstAttribute="top" secondItem="4dG-OS-3ml" secondAttribute="bottom" constant="16" id="ls8-8V-fK5"/>
                             <constraint firstItem="WAN-AC-s9l" firstAttribute="top" secondItem="zUI-Ri-tLc" secondAttribute="bottom" constant="42" id="sVk-hW-MBm"/>
                             <constraint firstItem="TJ7-ey-vT6" firstAttribute="top" secondItem="Ilh-7h-cLs" secondAttribute="top" constant="143" id="uz0-FR-zqX"/>
+                            <constraint firstItem="2Y4-PE-wKP" firstAttribute="centerX" secondItem="Han-rX-1PS" secondAttribute="centerX" id="ydW-zK-NJo"/>
                             <constraint firstItem="4dG-OS-3ml" firstAttribute="top" secondItem="WAN-AC-s9l" secondAttribute="bottom" constant="16" id="yt0-bQ-Fyf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Han-rX-1PS"/>
                     </view>
                     <navigationItem key="navigationItem" id="hHc-rO-75b"/>
                     <connections>
-                        <outlet property="idTextField" destination="4dG-OS-3ml" id="k6q-bI-AEk"/>
-                        <outlet property="nameTextField" destination="WAN-AC-s9l" id="ror-ud-qef"/>
-                        <outlet property="pwTextField" destination="pLk-0Y-s7f" id="Wbs-iD-gaw"/>
+                        <outlet property="emailTextField" destination="5yK-7z-CHA" id="OdO-wF-50U"/>
+                        <outlet property="idTextField" destination="WAN-AC-s9l" id="U2U-lU-Cdi"/>
+                        <outlet property="nameTextField" destination="pLk-0Y-s7f" id="lvY-GQ-VqK"/>
+                        <outlet property="pNumberTextField" destination="2Y4-PE-wKP" id="oKr-pG-VFO"/>
+                        <outlet property="pwTextField" destination="4dG-OS-3ml" id="9cN-Wr-Vm4"/>
                         <outlet property="signUpButton" destination="jyI-VJ-V5l" id="9ic-uq-0Sp"/>
                     </connections>
                 </viewController>
@@ -542,6 +569,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hTf-u1-DdC" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OZh-WX-qYf">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>

@@ -26,6 +26,31 @@ class MainViewController: UIViewController {
     @IBOutlet weak var pwTextField: UITextField!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var signInLabel: UILabel!
+    @IBAction func login(_ sender: Any) {
+        guard let inputID = idTextField.text else { return }
+        guard let inputPWD = pwTextField.text else { return }
+        LoginService.shared.login(id: inputID, pwd: inputPWD) { networkResult in
+            switch networkResult {
+            case .success(let token):
+                guard let token = token as? String else { return }
+                UserDefaults.standard.set(token, forKey: "token")
+                guard let tabbarController = self.storyboard?.instantiateViewController(identifier:
+                    "customTabbarController") as? UITabBarController else { return }
+                tabbarController.modalPresentationStyle = .fullScreen
+                self.present(tabbarController, animated: true, completion: nil)
+            case .requestErr(let message):
+                guard let message = message as? String else { return }
+                let alertViewController = UIAlertController(title: "로그인 실패", message: message,
+                                                            preferredStyle: .alert)
+                let action = UIAlertAction(title: "확인", style: .cancel, handler: nil)
+                alertViewController.addAction(action)
+                self.present(alertViewController, animated: true, completion: nil)
+            case .pathErr: print("path")
+            case .serverErr: print("serverErr")
+            case .networkFail: print("networkFail")
+            }
+        }
+    }
     
     
     
@@ -61,6 +86,7 @@ class MainViewController: UIViewController {
     
     func setupLabelTap() {
         let color : UIColor = UIColor(red:100.0/255.0, green:100.0/255.0,blue: 100.0/255.0, alpha:100)
+        signInLabel.textColor = color
         let labelTap = UITapGestureRecognizer(target:self, action: #selector(self.labelTapped(_sender:)))
         self.signInLabel.isUserInteractionEnabled = true
         self.signInLabel.addGestureRecognizer(labelTap)
